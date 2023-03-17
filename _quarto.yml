@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  
+execute: 
+  freeze: true
+
+website:
+  title: "Ewan Yeo"
+  description: The personal website of Ewan Yeo
+  twitter-card: true
+  open-graph: true
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - Arsenal.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ewan-yeo-59b609215
+
+format:
+  html:
+    theme:
+      light: simplex
+      dark: lux
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,14 @@
+{
+  "hash": "8464afa42bc9029ed32cb457a2be8020",
+  "result": {
+    "markdown": "---\ntitle: \"Welcome\"\n---\n\n\n## Stay as long as you like\n\n### Header\n\n**make it bold**\n\n_or italics_\n\n- like\n- this\n  - even a\n  - sub-list\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
